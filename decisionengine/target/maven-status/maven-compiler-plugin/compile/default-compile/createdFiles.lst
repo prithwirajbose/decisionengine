@@ -1,0 +1,16 @@
+com\jujuapps\java\decisionengine\beans\DecisionResultStatus.class
+com\jujuapps\java\decisionengine\beans\DecisionResult.class
+com\jujuapps\java\decisionengine\framework\ServiceResponse.class
+com\jujuapps\java\decisionengine\framework\Service.class
+com\jujuapps\java\decisionengine\rest\DecisionEngineController.class
+com\jujuapps\java\decisionengine\beans\Operator.class
+com\jujuapps\java\decisionengine\framework\ControllerServlet$1.class
+com\jujuapps\java\decisionengine\framework\ControllerServlet.class
+com\jujuapps\java\decisionengine\beans\Rule.class
+com\jujuapps\java\decisionengine\framework\ServiceInfo.class
+com\jujuapps\java\decisionengine\framework\ServiceNotFoundException.class
+com\jujuapps\java\decisionengine\framework\ControllerServlet$2.class
+com\jujuapps\java\decisionengine\beans\DecisionRequest.class
+com\jujuapps\java\decisionengine\framework\ApplicationController.class
+com\jujuapps\java\decisionengine\beans\DecisionStrategy.class
+com\jujuapps\java\decisionengine\framework\ServiceValidationException.class
