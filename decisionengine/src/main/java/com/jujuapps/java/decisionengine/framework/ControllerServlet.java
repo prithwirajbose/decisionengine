@@ -2,7 +2,6 @@ package com.jujuapps.java.decisionengine.framework;
 
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet(value="/services/*")
 public class ControllerServlet extends HttpServlet {
 	private static HashMap<String, ServiceInfo> SERVICE_MAPPINGS = null;
 
@@ -114,8 +113,8 @@ public class ControllerServlet extends HttpServlet {
 	public void init(ServletConfig config) {
 		if (SERVICE_MAPPINGS == null || SERVICE_MAPPINGS.size() <= 0) {
 			SERVICE_MAPPINGS = new HashMap<String, ServiceInfo>();
-			//Reflections reflections = new Reflections(config.getInitParameter("scanPackages"));
-			Reflections reflections = new Reflections("com.jujuapps.java.decisionengine.rest");
+			Reflections reflections = new Reflections(config.getInitParameter("scanPackages"));
+			//Reflections reflections = new Reflections("com.jujuapps.java.decisionengine.rest");
 			Set<Class<? extends ApplicationController>> classes = reflections
 					.getSubTypesOf(ApplicationController.class);
 			for (Class controller : classes) {
