@@ -149,7 +149,6 @@ public class ControllerServlet extends HttpServlet {
 							ServiceInfo serviceInfo = new ServiceInfo();
 							serviceInfo.setController(controller);
 							serviceInfo.setServiceMethod(m);
-
 							SERVICE_MAPPINGS.put(service.path(), serviceInfo);
 						}
 					}
